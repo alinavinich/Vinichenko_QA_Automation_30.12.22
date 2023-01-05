@@ -129,9 +129,9 @@ public class Counter_Strike {
         double resultTeam2 = sum2 / numTeam2.length;
 
         if (resultTeam1 > resultTeam2) {
-            System.out.println(team1 + " team won, by a score " + (int)sum1);
+            System.out.println(team1 + " team won!!! By a score " + (int)sum1);
         } else if (resultTeam1 < resultTeam2) {
-            System.out.println(team2 + " team won, by a score " + (int)sum2);
+            System.out.println(team2 + " team won!!! By a score " + (int)sum2);
         } else if (resultTeam1 == resultTeam2) {
             System.out.println("Draw! Both teams scored " + (int)sum2);
         }
