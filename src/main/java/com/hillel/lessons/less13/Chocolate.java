@@ -1,6 +1,6 @@
 package com.hillel.lessons.less13;
 
-public class Chocolate extends Product implements Sweets {
+public final class Chocolate extends Product implements Sweets {
 
     private String type;
 
